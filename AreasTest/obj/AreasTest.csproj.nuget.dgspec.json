@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\2037408\\source\\repos\\AreasTest\\AreasTest.csproj": {}
+    "C:\\Users\\2037408\\Desktop\\ExerciceAreas-Cour-1-\\AreasTest\\AreasTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\2037408\\source\\repos\\AreasTest\\AreasTest.csproj": {
+    "C:\\Users\\2037408\\Desktop\\ExerciceAreas-Cour-1-\\AreasTest\\AreasTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\2037408\\source\\repos\\AreasTest\\AreasTest.csproj",
+        "projectUniqueName": "C:\\Users\\2037408\\Desktop\\ExerciceAreas-Cour-1-\\AreasTest\\AreasTest.csproj",
         "projectName": "AreasTest",
-        "projectPath": "C:\\Users\\2037408\\source\\repos\\AreasTest\\AreasTest.csproj",
+        "projectPath": "C:\\Users\\2037408\\Desktop\\ExerciceAreas-Cour-1-\\AreasTest\\AreasTest.csproj",
         "packagesPath": "C:\\Users\\2037408\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\2037408\\source\\repos\\AreasTest\\obj\\",
+        "outputPath": "C:\\Users\\2037408\\Desktop\\ExerciceAreas-Cour-1-\\AreasTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\2037408\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,26 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
